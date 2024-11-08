@@ -7,6 +7,7 @@ public class Ascend {
 		int ran1 =(int) ((1 + randomnum) * Math.random());
 		int ran2 =(int) ((1 + randomnum) * Math.random());
 		int ran3 =(int) ((1 + randomnum) * Math.random());
+		System.out.println(ran1 + " " +ran2 + " " +ran3);
 		int min = Math.min(Math.min(ran1, ran2), ran3);
 		int max = Math.max(Math.max(ran1, ran2), ran3);
 		int mid = (ran1 + ran2 + ran3) - (min +max);
